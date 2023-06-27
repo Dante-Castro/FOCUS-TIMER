@@ -38,7 +38,7 @@ export default function Timer ({
       }
 
       if ( seconds <= 0 ) {
-        seconds = 4
+        seconds = 60
 
         displayMinutes.textContent = String(minutes - 1).padStart(2, "0")
       }
